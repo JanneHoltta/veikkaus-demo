@@ -2,9 +2,9 @@ Sovellus on toteutettu Kotlinilla ja hyödyntää Spring Boot -kehystä. Sen avu
 Sovellukseen on tehty 6 unit testiä testaamaan kriittisimmät toiminnot. Koodin kommenteista voi saada lisätietoa niistä.
 
 Ohjelman ajaminen:
-1. Ohjelma tulee buildata käyttämällä maven työkalua. Navigoi demo kansioon ja aja komento "mvn package"
+1. Ohjelma tulee buildata käyttämällä maven työkalua. Navigoi veikkaus-demo kansioon ja aja komento "mvn package"
    Tämä ajaa myös testit, jotka tulisi mennä läpi
-2. Seuraavaksi navigoi demo/target kansioon, jossa sijaitsee buildattu jar file. Tämä tulee ajaa komennolla "java -jar {something-SNAPSHOT.jar}"
+2. Seuraavaksi navigoi veikkaus-demo/target kansioon, jossa sijaitsee buildattu jar file. Tämä tulee ajaa komennolla "java -jar demo-0.0.1-SNAPSHOT.jar"
 3. Ohjelman tulisi käynnistyä ja se on nähtävissä selaimessa osoitteessa https://localhost:8086/
 
 Ohjelman käyttäminen:
